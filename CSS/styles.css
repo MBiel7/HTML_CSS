@@ -1,0 +1,36 @@
+h1{
+  color:orange;
+  display: inline;
+}
+div p.error{
+  color:red;
+}
+.succes{
+  color:rgb(37, 124, 37);
+}
+.succes p.error{
+  color:rgb(14, 30, 122);
+}
+p.succes.feedback{
+  border:1px dashed rgb(37, 124, 37);
+}
+#content{
+  background-color: rgb(255, 224, 167);
+}
+a[href*="9"]{
+  background-color: hotpink;
+  text-decoration: none;
+  color:aliceblue;
+}
+/* 
+*= zawiera
+$ kończy się na
+*/
+div{
+  border:1px solid blue;
+  margin:40px;
+}
+p{
+  border:inherit;
+  margin:inherit;
+}
